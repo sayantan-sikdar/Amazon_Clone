@@ -1,0 +1,41 @@
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel_all{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.panelBorder{
+    border: 2px solid transparent;
+}
+
+.panelBorder:hover{
+    border: 2px solid white;
+}
+
+.panel_options p {
+    display: inline;
+    margin-left: 15px;
+    font-weight: 650;
+    align-items: center;
+}
+
+.panel_options{
+    width: 70%;
+    font-size: 14px;
+}
+
+.panel_deals{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+}
